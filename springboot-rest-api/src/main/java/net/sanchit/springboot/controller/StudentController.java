@@ -40,7 +40,7 @@ public class StudentController {
                                        @PathVariable("last-name") String lastName)
     {
         Student student = new Student(studentId, firstName,lastName);
-        return ResponseEntity.ok(student) ;
+        return ResponseEntity.ok(student);
     }
 
     // Spring BOOT REST API with Request Param
